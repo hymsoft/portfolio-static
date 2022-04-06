@@ -1,0 +1,75 @@
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {} */
+.page__container > .trabajando {
+  background-color: goldenrod;
+  padding: 10px;
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page__container {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  gap: 1em;
+  grid-template-areas:
+    "header"
+    "about"
+    "experience"
+    "education"
+    "skills"
+    "projects"
+    "contact"
+    "footer";
+}
+
+#header {
+  grid-area: header;
+}
+
+#about {
+  grid-area: about;
+}
+
+#experience {
+  grid-area: experience;
+}
+
+#education {
+  grid-area: education;
+}
+
+#skills {
+  grid-area: skills;
+}
+
+#projects {
+  grid-area: projects;
+}
+
+#contact {
+  grid-area: contact;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) { } */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) { } */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) { } */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) { } */
